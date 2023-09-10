@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-4</title>
+    <style>
+      input,
+      select {
+        margin-left: 100px;
+      }
+      #save {
+        margin-left: 0px;
+        border-radius: 3px;
+        border-color: rgb(206, 161, 77);
+      }
+    </style>
+  </head>
+  <body>
+    <form style="margin: 100px">
+      <table>
+        <tr>
+          <td><label for="Full Name">Full Name:</label></td>
+          <td>
+            <input type="text" placeholder="Vincent Maverick Durano" /> <br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Username">Username:</label></td>
+          <td><input type="text" placeholder="Vinz" /> <br /></td>
+        </tr>
+        <tr>
+          <td><label for="Password">Password:</label></td>
+          <td><input type="password" /> <br /></td>
+        </tr>
+        <tr>
+          <td><label for="Re Password">Re Password:</label></td>
+          <td><input type="password" /><br /></td>
+        </tr>
+        <tr>
+          <td><label for="Address">Address:</label></td>
+          <td><input type="text" placeholder="Cebu, Phillippines" /> <br /></td>
+        </tr>
+        <tr>
+          <td><label for="Age">Age:</label></td>
+          <td><input type="number" placeholder="22" /> <br /></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <select name="Gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <input id="save" type="submit" value="Save" />
+    </form>
+  </body>
+</html>
